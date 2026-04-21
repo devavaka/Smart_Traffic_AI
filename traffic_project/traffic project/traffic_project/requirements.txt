@@ -1,0 +1,26 @@
+# ══════════════════════════════════════════════════════════════
+# Traffic Monitoring Dashboard — Python dependencies
+# Install with:  pip install -r requirements.txt
+# ══════════════════════════════════════════════════════════════
+
+# Core detection (YOLOv8) — downloads yolov8n.pt automatically
+ultralytics>=8.0.0
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Image handling (Tkinter PhotoImage bridge)
+Pillow>=10.0.0
+
+# Plotting / heatmap visualisation
+matplotlib>=3.7.0
+
+# ── Optional extras ────────────────────────────────────────────
+# For GPU-accelerated inference (NVIDIA):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# For EasyOCR-based real number plate reading:
+#   pip install easyocr
